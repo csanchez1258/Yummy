@@ -1,58 +1,110 @@
-.banner {
-    position: absolute;
-    width: 1152px;
-    height: 100px;
-    left: 0px;
-    top: 0px;
-    background: #B71C1C;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 54px;
-    text-align: center;
-    color: #FFFFFF;
-  }
-  
-  .searchbars input{
-    width: 304px;
-    height: 41px;
-    background: #F05545;
-    border-radius: 40px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 27px;
-    border: 0px;
-  }
-  
-  .searchyums {
-    position: absolute;
-    left: 234px;
-    top: 281px;
-  }
-  
-  .location {
-    position: absolute;
-    left: 604px;
-    top: 281px;
-  }
-  
-  .letseat {
-  position: absolute;
-  width: 166px;
-  height: 48px;
-  left: 493px;
-  top: 381px;
-  border: 0px;
+body {
+  background-image: url("https://cdn.glitch.com/d1b24cfc-7d5a-44c4-b56c-a0a39653133f%2Ffood-1.png?v=1616371007128");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.logo {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 19px 10px 19px 14px;
+position: absolute;
+width: 230px;
+height: 79.97px;
+left: 0px;
+top: 0px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 24.3692px;
+line-height: 37px;
+text-align: center;
+color: #FF0C0C;
+background-color: white;
+}
+
+#icon {
+  padding-top: 25px;
+  margin-right: 10px;
+}
+
+.welcome {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 851px;
+height: 244px;
+left: 159px;
+top: 156px;
+}
+
+.welcome p {
+  position: static;
+width: 563px;
+height: 151px;
+left: 0px;
+top: 0px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 72px;
+
+color: #000000;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 8px 0px;
+}
+
+.searchbars input{
+  width: 304px;
+  height: 41px;
   background: #F05545;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 27px;
-  text-align: center;
-  }
+  border: 0px;
+
+background: #FFFFFF;
+}
+
+.searchyums {
+  border-radius: 5.625px 0px 0px 5.625px;
+  margin: 0px;
+}
+
+.locations {
+  margin: 0px;
+}
+
+.letseat {
+width: 136px;
+height:41px;
+position: absolute;
+border: 0px;
+background: #F05545;
+
+border-radius: 0px 5px 5px 0px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+background: #FF0C0C;
+color: white;
+}
